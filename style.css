@@ -1,0 +1,299 @@
+.nav-link:hover{
+    background-color: rgb(240, 139, 45);
+    color: whitesmoke !important;
+    padding: 10px;
+    border-radius: 15px ;
+
+}
+
+.dropdown-menu{
+    background-color: rgb(233, 233, 233) !important;
+    border: none !important;
+    font-size: 14px !important;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(240, 139, 45) !important ;
+    color: black !important;
+    border-radius: 15px ;
+
+}
+
+
+
+
+
+
+
+
+.jumbotron{
+    background-image: url(ant-rozetsky-SLIFI67jv5k-unsplash.jpg) !important;
+    background-size: 100%, 100%;
+}
+.heading1{
+    
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    /* font-weight: 200px !important; */
+    
+}
+
+
+
+.sticky{
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    
+     
+}
+
+
+.heading2{
+    font-family: 'Cormorant Garamond', serif;
+    
+    
+}
+
+.weighbridge:hover{
+    background-color: rgb(240, 139, 45);
+    color: whitesmoke !important;
+    padding: 10px;
+    border-radius: 15px ;
+    text-decoration: none;
+}
+
+
+.carouselbutton{
+    background-color: rgb(240, 139, 45);
+    color: whitesmoke !important;
+    padding: 10px;
+    border-radius: 15px ;
+    text-decoration: none;
+}
+
+.carouselbutton:hover{
+    background-color: rgb(206, 100, 1);
+    color: whitesmoke !important;
+    padding: 12px;
+    border-radius: 15px ;
+    text-decoration: none;
+}
+
+
+
+/* slider */
+.xyz{
+    background-image: url('ali-yahya-ytNFYf4d_30-unsplash.jpg') ;
+  
+ 
+    background-size: 100%, 100%;
+}
+
+.alpha{
+    
+    width: 70%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.slider{
+    /* background-color: rgb(243, 243, 243); */
+    width: 1080px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30); */
+    /* box-shadow: 3px 4px 5px rgb(240, 139, 45), 6px 7px 8px black; */
+    /* border-radius: 90px; */
+    border-color: rgb(243, 243, 243);
+    border-radius: 1px;
+    margin-bottom: 10px;;
+}
+
+.slider::before,.slider::after{
+    content: '';
+    position: absolute ;
+    width: 200px;
+    height: 150px;
+    /* background: linear-gradient(to right, rgb(202, 199, 199) 0%, rgba(245,245,245,0)80%); */
+    z-index: 2;
+}
+
+.slider::before{
+    top: 0;
+    left: 0;
+}
+.slider::after{
+    top: 0;
+    right: 0;
+    transform: rotateZ(180deg);
+}
+.slider .slider-tracker{
+    display: flex;
+    width: calc(250px * 14);
+    animation: scroll 40s infinite linear;
+}
+
+.slider .slide img{
+    width: 80%;
+    height: 100%;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 21px;
+    
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0%)
+    }
+    100%{
+        transform: translateX(calc(-250px * 7))
+    }
+}
+
+/* ------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+
+/* --------------------------------------------------------------------------- */
+
+.services{
+    justify-content: center !important;
+    justify-items: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.ourserv{
+    background-color: rgb(240, 139, 45);
+    color: whitesmoke !important;
+    padding: 10px;
+    border-radius: 15px ;
+    text-decoration: none;
+}
+.ourserv:hover{
+    background-color: rgb(206, 100, 1);
+    color: whitesmoke !important;
+    padding: 12px;
+    border-radius: 15px ;
+    text-decoration:none ;
+}
+
+
+
+/* ................dropdown menu responsiveness................ */
+@media screen and (min-width: 768px){
+    .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+          display: block;
+      }
+      .dropdown-menu{
+          margin-top: 0;
+      }
+      .dropdown-toggle{
+          margin-bottom: 2px;
+      }
+      .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+          margin-bottom: 0;
+      }
+  }
+
+
+  @media screen and (min-width: 200px){
+    .dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+          display: block;
+      }
+      .dropdown-menu{
+          margin-top: 0;
+      }
+      .dropdown-toggle{
+          margin-bottom: 2px;
+      }
+      .navbar .dropdown-toggle, .nav-tabs .dropdown-toggle{
+          margin-bottom: 0;
+      }
+  }
+
+
+  /* .....................footer.............. */
+  .fab:hover{
+    color: rgb(255, 123, 0) !important;
+  }
+
+.footer-links{
+    text-decoration: none;
+        color: white;
+        font-family:  'Nunito Sans', sans-serif;
+     
+      
+ }
+ .footer-links:hover{
+        color: orange;
+        text-decoration: none;
+}
+/* ........................about.......................... */
+
+
+.jumbotron1{
+    background-image: url(images/austin-distel-wawEfYdpkag-unsplash.jpg) !important;
+    background-size: 100%, 100%;
+    height: 45vh;
+  
+}
+.formforcontact{
+    height: 50px !important;
+    width: 230px !important;
+}
+.formforcontact:hover{
+  
+    border: rgb(255, 123, 0) solid 3px;
+}
+
+.formbutton{
+    height: 50px !important;
+    background-color: rgb(255, 123, 0) !important;
+    color: white !important;
+    border: none !important;
+
+}
+
+.formbutton:hover{
+    
+    background-color: rgb(184, 89, 0) !important;
+    color: white !important;
+    border: none !important;
+
+}
+
+.formbutton:focus-within{
+    
+    border: none !important;
+
+}
+/* ..................................... */ 
+
+.xy{
+    background-image: url(images/avatar-2155431_1920.png) !important;
+    background-size: 100%, 100%;
+    height: 45vh;
+}
+
+/* ........................................ */
+ 
+.yz{
+    background-image: url(images/services.jpg) !important;
+    background-size: 100%, 100%;
+    height: 45vh;
+}
+
+.cardbox{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.30), 0 6px 20px 0 rgba(0, 0, 0, 0.30) !important;
+    width: 500px !important;
+}
